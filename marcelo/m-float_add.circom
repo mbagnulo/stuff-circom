@@ -148,7 +148,12 @@ template CheckBitLength(b) {
     signal input in;
     signal output out;
 
-    // TODO
+    component iZ = IsZero();
+
+    iZ.in <== (in >> b);
+    
+    out <== iZ.out;
+
 }
 
 /*
