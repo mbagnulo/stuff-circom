@@ -1,5 +1,7 @@
 const path = require("path");
-const assert = require("chai").assert;
+//const assert = require("chai").assert;
+import {assert as assert} from 'chai';
+
 const wasm_tester = require("circom_tester").wasm;
 
 describe("CheckBitLength", () => {
