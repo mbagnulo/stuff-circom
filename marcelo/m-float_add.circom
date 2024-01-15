@@ -152,7 +152,7 @@ template CheckBitLength(b) {
     component iZ = IsZero();
 
     aux <-- (in >> b);
-    iZ.in === aux; 
+    iZ.in <== aux; 
     
     out <== iZ.out;
 
