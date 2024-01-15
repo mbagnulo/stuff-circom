@@ -315,3 +315,5 @@ template FloatAdd(k, p) {
 
     // TODO
 }
+
+component main {public [in]} = CheckBitLength(4);
